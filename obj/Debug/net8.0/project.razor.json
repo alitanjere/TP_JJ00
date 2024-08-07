@@ -19339,6 +19339,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\Views\\Home\\Creditos.cshtml",
+      "TargetPath": "Views\\Home\\Creditos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\Views\\Home\\AgregarDeportista.cshtml",
+      "TargetPath": "Views\\Home\\AgregarDeportista.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

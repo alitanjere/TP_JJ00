@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = z:\PROG 4TO AÑO\TP_JJOO\TP_JJOO
 build_property._RazorSourceGeneratorDebug = 
 
+[z:/PROG 4TO AÑO/TP_JJOO/TP_JJOO/Views/Home/AgregarDeportista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyRGVwb3J0aXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/PROG 4TO AÑO/TP_JJOO/TP_JJOO/Views/Home/Creditos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [z:/PROG 4TO AÑO/TP_JJOO/TP_JJOO/Views/Home/Deportes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

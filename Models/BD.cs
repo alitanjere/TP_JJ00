@@ -64,11 +64,13 @@ public class BD{
         }
         return ListDeportistas;
     }
-    public static void ListarDeportistasPais(int idPais){
+    public static List<Deportista> ListarDeportistasPais(int idPais){
+        List <Deportista> ListDeportistas = new List<Deportista>();
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Deportistas WHERE IdPais = @PaisSelec";
-            List <Deportista> ListDeportistas = db.Query<Deportista>(sql, new{PaisSelec = idPais}).ToList();
+            ListDeportistas = db.Query<Deportista>(sql, new{PaisSelec = idPais}).ToList();
         }
+        return ListDeportistas;
     }
 
 }
