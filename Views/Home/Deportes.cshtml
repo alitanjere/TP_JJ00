@@ -1,3 +1,5 @@
-@for(int i = 0; i < @ViewBag.ListaDeportes.Count(); i++ ){
-    <h1>@ViewBag.ListaDeportes[i]</h1>
+@foreach(Deporte depo in ViewBag.ListaDeportes){
+    <h1>@depo.Nombre</h1>
+    <img src = "~/Images/@depo.Foto">
+    <button><a href='@Url.Action("VerDetalleDeporte")'>Ver Detalles<a></button>
 }

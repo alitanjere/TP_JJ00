@@ -40,12 +40,42 @@ public class HomeController : Controller
 
         return View();
     }
-
     public IActionResult VerDetalleDeporte(int idDeporte){
 
         ViewBag.DeportistasPorDeporte = BD.ListarDeportistasDep(idDeporte);
-        ViewBag.NombreDeporte = BD.ListarDeportes[idDeporte].Nombre;
-        return View();
+        ViewBag.NombreDeporte = BD.VerInfoDeporte(idDeporte).Nombre;
+        ViewBag.FotoDeporte = BD.VerInfoDeporte(idDeporte).Foto;
+        return View("DetalleDeporte");
 
     }
+    public IActionResult VerDetallePais(int idPais){
+
+        ViewBag.DeportistasPorPais = BD.ListarDeportistasPais(idPais);
+        ViewBag.NombrePais = BD.VerInfoPais(idPais).Nombre;
+        ViewBag.FotoPais = BD.VerInfoPais(idPais).Bandera;
+        ViewBag.FechaPais = BD.VerInfoPais(idPais).FechaFundacion;
+        return View("DetallePais");
+
+    }
+    public IActionResult VerDetalleDeportista(int idDeportista){
+
+        ViewBag.NombreDeportista = BD.VerInfoDeportista(idDeportista).Nombre;
+        ViewBag.ApellidoDeportista = BD.VerInfoDeportista(idDeportista).Apellido;
+        ViewBag.FechaDeportista = BD.VerInfoDeportista(idDeportista).FechaNacimiento;
+        ViewBag.FotoDeportista = BD.VerInfoDeportista(idDeportista).Foto;
+        return View("DetalleDeportista");
+
+    }
+
+    [HttpPost] public  IActionResult GuardarDeportista(Deportista dep){
+        BD.AgregarDeportista(dep);
+        return View("Index");
+    }
+    public IActionResult EliminarDeportista(int idCandidato){
+        BD.EliminarDeportista(idCandidato);
+        return View("Index");
+
+    }
+
 }
+

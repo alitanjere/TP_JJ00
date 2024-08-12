@@ -4,21 +4,32 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NombreProyecto</title>
+    <title>@ViewData["Title"] - JJOO</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 
 <body>
     <header>
-        NombreProyecto
+        <nav>
+            <a href='@Url.Action("Index")' class="logo"><img src="~/Images/logoJJOO.png" alt="logo"></a>
+            <ul>
+                <li><a href='@Url.Action("Historia")'>Historia</a></li>
+                <li><a href='@Url.Action("Deportes")'>Deportes</a></li>
+                <li><a href='@Url.Action("Paises")'>Paises</a></li>
+                <li><a href='@Url.Action("AgregarDeportista")'>Agregar Deportista</a></li>
+                <li><a href='@Url.Action("Creditos")'>Creditos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main role="main">
         @RenderBody()
     </main>
 
-    <footer>
-        &copy; @DateTime.Now.Year - NombreProyecto
+  
+    <footer>        
+        <img src="~/Images/footer.png" alt="">
+        <p>&copy; @DateTime.Now.Year - JJOO, Jusid & Zolotow</p>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

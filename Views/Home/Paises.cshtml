@@ -1,0 +1,4 @@
+@foreach(Pais pais in ViewBag.ListaPaises){
+    <h1>@pais.Nombre</h1>
+    <button><a href='@Url.Action("VerDetallePais")'>Ver Detalles<a></button>
+}

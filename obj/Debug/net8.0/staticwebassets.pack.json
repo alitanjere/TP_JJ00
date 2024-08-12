@@ -1,6 +1,34 @@
 {
   "Files": [
     {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\basket.png",
+      "PackagePath": "staticwebassets\\Images\\basket.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\footer.png",
+      "PackagePath": "staticwebassets\\Images\\footer.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\futbol.png",
+      "PackagePath": "staticwebassets\\Images\\futbol.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\gimnasia.png",
+      "PackagePath": "staticwebassets\\Images\\gimnasia.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\hockey.png",
+      "PackagePath": "staticwebassets\\Images\\hockey.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\logoJJOO.png",
+      "PackagePath": "staticwebassets\\Images\\logoJJOO.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\nata.png",
+      "PackagePath": "staticwebassets\\Images\\nata.png"
+    },
+    {
       "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
