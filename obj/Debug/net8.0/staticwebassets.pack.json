@@ -1,91 +1,135 @@
 {
   "Files": [
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\basket.png",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\ale.png",
+      "PackagePath": "staticwebassets\\Images\\ale.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\arg.png",
+      "PackagePath": "staticwebassets\\Images\\arg.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\ari.png",
+      "PackagePath": "staticwebassets\\Images\\ari.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\basket.png",
       "PackagePath": "staticwebassets\\Images\\basket.png"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\footer.png",
-      "PackagePath": "staticwebassets\\Images\\footer.png"
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\biles.png",
+      "PackagePath": "staticwebassets\\Images\\biles.png"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\futbol.png",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\bra.png",
+      "PackagePath": "staticwebassets\\Images\\bra.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\bruno.png",
+      "PackagePath": "staticwebassets\\Images\\bruno.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\futbol.png",
       "PackagePath": "staticwebassets\\Images\\futbol.png"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\gimnasia.png",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\gimnasia.png",
       "PackagePath": "staticwebassets\\Images\\gimnasia.png"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\hockey.png",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\hockey.png",
       "PackagePath": "staticwebassets\\Images\\hockey.png"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\logoJJOO.png",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\julian.png",
+      "PackagePath": "staticwebassets\\Images\\julian.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\lebron.png",
+      "PackagePath": "staticwebassets\\Images\\lebron.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\logoJJOO.png",
       "PackagePath": "staticwebassets\\Images\\logoJJOO.png"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\Images\\nata.png",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\nata.png",
       "PackagePath": "staticwebassets\\Images\\nata.png"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\css\\site.css",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\uru.png",
+      "PackagePath": "staticwebassets\\Images\\uru.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\usa.png",
+      "PackagePath": "staticwebassets\\Images\\usa.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\viktoria.png",
+      "PackagePath": "staticwebassets\\Images\\viktoria.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\Images\\zoli.png",
+      "PackagePath": "staticwebassets\\Images\\zoli.png"
+    },
+    {
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\favicon.ico",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\js\\site.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "Z:\\PROG 4TO AÑO\\TP_JJOO\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

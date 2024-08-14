@@ -1,0 +1,17 @@
+<!--Inicio Info Pais-->
+<h1>@ViewBag.NombrePais</h1>
+<img src = "~/Images/@ViewBag.FotoPais">
+<h3>@ViewBag.FechaPais</h3>
+<!--Fin Info Pais-->
+<!--Inicio Deportistas-->
+@foreach(Deportista miDepor in ViewBag.DeportistasPorPais){
+    <div class="card" style="width: 18rem;">
+        <img src="~/Images/@miDepor.Foto" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@miDepor.Nombre @miDepor.Apellido</h5>
+            <p class="card-text">@miDepor.FechaNacimiento</p>
+            <a href="#" class="btn btn-primary">Ver Detalles</a>
+        </div>
+    </div>
+}
+<!--Fin Deportistas-->

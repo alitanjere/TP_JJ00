@@ -1,0 +1,16 @@
+<!--Inicio Info Deporte-->
+<h1>@ViewBag.NombreDeporte</h1>
+<img src = "~/Images/@ViewBag.FotoDeporte">
+<!--Fin Info Deporte-->
+<!--Inicio Deportistas-->
+@foreach(Deportista miDepor in ViewBag.DeportistasPorDeporte){
+    <div class="card" style="width: 18rem;">
+        <img src="~/Images/@miDepor.Foto" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@miDepor.Nombre @miDepor.Apellido</h5>
+            <p class="card-text">@miDepor.FechaNacimiento</p>
+            <a href='@Url.Action("VerDetalleDeportista")' class="btn btn-primary">Ver Detalles</a>
+        </div>
+    </div>
+}
+<!--Fin Deportistas-->

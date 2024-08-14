@@ -1,0 +1,18 @@
+<form action= '@Url.Action("GuardarDeportista")'>
+Nombre <input type= text name= Nombre placeholder="Ingrese su nombre">
+Apellido <input type= text name= Apellido placeholder="Ingrese su apellido">
+Foto <input type= text name= Foto placeholder="Ingrese la url">
+Deporte<select input type="select">
+@foreach(Deporte dep in @ViewBag.ListaDeportes){
+    <option value="">@dep.Nombre</option> 
+}
+</select>
+Pais<select input type="select">
+@foreach(Pais miPais in @ViewBag.ListaPaises){
+    <option value="">@miPais.Nombre</option> 
+}
+</select>       
+Fecha de nacimiento <input type= text name= FechaNacimiento placeholder="Ingrese su fecha de nacimiento">
+<input type="submit">
+<input type="reset">
+</form>

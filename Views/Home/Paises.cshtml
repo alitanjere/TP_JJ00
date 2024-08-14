@@ -1,4 +1,6 @@
 @foreach(Pais pais in ViewBag.ListaPaises){
     <h1>@pais.Nombre</h1>
+    <img src="~/Images/@pais.Bandera">
+    <p>@pais.FechaFundacion.Year/ @pais.FechaFundacion.Month/ @pais.FechaFundacion.Day</p>
     <button><a href='@Url.Action("VerDetallePais")'>Ver Detalles<a></button>
 }

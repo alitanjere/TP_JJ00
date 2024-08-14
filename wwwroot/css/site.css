@@ -48,19 +48,183 @@ header nav ul li a{
 
 
 footer {
-  padding: 1.5%;
-  color: aliceblue;
-  background-color: #000000;
-  display: flex;
-  margin: 0px;
-  flex-direction: column;
-}
-footer img{
-  width: 100%;
-}
-footer p{
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+  min-width: 150px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.olympic-logo {
+  width: 100px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom ul li {
+  margin: 0 15px;
+  font-size: 12px;
+}
+
+.footer-bottom ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom p{
+  padding-top: 2%;
+}
+.Creditos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team{
+  border: 1px solid #c9c9c9;
+  border-radius: 5%;
+  width: 20%;
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #272727;
+  box-shadow: -5px 47px 76px -27px rgba(24, 24, 24, 0.75);
+  color: white;
+}
+
+.team img{
+  border-radius: 50%;
+}
+
+.share-container {
+  text-align: left;
+  margin-top: 20px;
+  padding: 2%;
+}
+
+.share-container h3 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: normal;
+  position: relative;
+  padding-left: 20px;
+}
+
+.share-container h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.share-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.share-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.share-btn.email {
+  background-color: #bdbdbd;
+}
+.share-btn.email:hover {
+  background-color: #9c9b9b;
+}
+
+.share-btn.instagram {
+  background-color: #e1306c;
+}
+
+.share-btn.instagram:hover {
+  background-color: #b72455;
+}
+
+.share-btn.twitter {
+  background-color: #1da1f2;
+}
+.share-btn.twitter:hover {
+  background-color: #1986ca;
+}
+
+.share-btn.facebook {
+  background-color: #1877f2;
+}
+.share-btn.facebook:hover {
+  background-color: #1462c8;
+}

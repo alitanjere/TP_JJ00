@@ -45,7 +45,7 @@ public class HomeController : Controller
         ViewBag.DeportistasPorDeporte = BD.ListarDeportistasDep(idDeporte);
         ViewBag.NombreDeporte = BD.VerInfoDeporte(idDeporte).Nombre;
         ViewBag.FotoDeporte = BD.VerInfoDeporte(idDeporte).Foto;
-        return View("DetalleDeporte");
+        return View("VerDetalleDeporte");
 
     }
     public IActionResult VerDetallePais(int idPais){
@@ -54,7 +54,7 @@ public class HomeController : Controller
         ViewBag.NombrePais = BD.VerInfoPais(idPais).Nombre;
         ViewBag.FotoPais = BD.VerInfoPais(idPais).Bandera;
         ViewBag.FechaPais = BD.VerInfoPais(idPais).FechaFundacion;
-        return View("DetallePais");
+        return View("VerDetallePais");
 
     }
     public IActionResult VerDetalleDeportista(int idDeportista){
@@ -63,7 +63,7 @@ public class HomeController : Controller
         ViewBag.ApellidoDeportista = BD.VerInfoDeportista(idDeportista).Apellido;
         ViewBag.FechaDeportista = BD.VerInfoDeportista(idDeportista).FechaNacimiento;
         ViewBag.FotoDeportista = BD.VerInfoDeportista(idDeportista).Foto;
-        return View("DetalleDeportista");
+        return View("VerDetalleDeportista");
 
     }
 
