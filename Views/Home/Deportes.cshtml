@@ -1,5 +1,18 @@
+<div class="Titulos">
+<h1>Conoce nuestros deportes</h1></div>
+<div class="row">
 @foreach(Deporte depo in ViewBag.ListaDeportes){
-    <h1>@depo.Nombre</h1>
-    <img src = "~/Images/@depo.Foto">
-    <button><a href='@Url.Action("VerDetalleDeporte", new {idDeporte = @depo.idDeporte})'>Ver Detalles<a></button>
+  <div class="col-sm-3">
+    <div class="card text-bg-dark">
+      <div class="card-img-overlay-dark">
+      <img src="~/Images/@depo.Foto" class="card-img" alt="..." style="height: 200px;"></div>
+      <div class="card-img-overlay">
+        <div class="costado">
+          <h3 class="card-title">@depo.Nombre</h3>
+          <button type="button" class="btn btn-dark" ><a href='@Url.Action("VerDetalleDeporte", new {IdDeporte = @depo.IdDeporte})'>Ver más</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
 }
+</div>

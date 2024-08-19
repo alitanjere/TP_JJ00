@@ -3,18 +3,28 @@
   padding: 0px;
   font-family:'Arial', system-ui;
 }
-
+/*Comienzo Header (Layout) */ 
 header {
   border-top: 8px solid rgb(157, 157, 157);
   border-bottom:1.5px solid rgb(197, 197, 197);
 
 }
 .logo{
-  width: 5%;
-  height: 60%;
+  width: 6%;
+  height: 70%;  
+  padding-left: 2.5%;
+
+}
+.lupa{
+  width: 65px;
+  margin-left: 6%;
+}
+.lupa img{
+  width: 40%;
+  height: 1%;
 }
 .logo img{
-  padding-top: 20%;
+  padding-top: 10%;
   padding-left: 10%;
   width: 100%;
   height: 100%;
@@ -23,7 +33,7 @@ header {
 header nav{
   display: flex;
   width: 100%;
-  height: 75px;
+  height: 65px;
 }
 
 header nav ul{
@@ -45,8 +55,9 @@ header nav ul li a{
   text-decoration: none;
   color: rgb(30, 30, 30);
 }
+/*Fin Header (Layout) */ 
 
-
+/*Comienzo Footer (Layout) */ 
 footer {
   background-color: #000;
   color: #fff;
@@ -92,8 +103,8 @@ footer {
   text-decoration: underline;
 }
 
-.olympic-logo {
-  width: 100px;
+.olympic-logi {
+  width: 200px;
 }
 
 .footer-bottom {
@@ -129,6 +140,9 @@ footer {
 .footer-bottom p{
   padding-top: 2%;
 }
+/*Fin Footer (Layout) */
+
+/*Comienzo Creditos */ 
 .Creditos{
   display: flex;
   align-items: center;
@@ -228,3 +242,270 @@ footer {
 .share-btn.facebook:hover {
   background-color: #1462c8;
 }
+/*Fin Creditos */ 
+
+/*Comienzo Index */
+.Index .banner{
+  display: flex;
+  padding: 4%;
+  justify-content: center;
+  height: 350px;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid grey;
+}
+.Index .banner h1{
+  font-weight: bold;
+  width: 30%;
+  font-size: 4em;
+  font-family: "Anton Regular" ;
+}
+.Index .banner p{
+  width: 50%;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+.Index section{
+  color: white;
+  background-color: #272727;
+}
+.Index section .sect .text{
+  flex-direction: column;
+  width: 60%;
+  padding-right: 4%;
+}
+.Index section .sect{
+  padding: 4%;
+  border-bottom: 1px solid gray;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Index section .sect h1{
+  margin-bottom: 1.5%;
+  font-size: 2.5em;
+  font-family: "Anton Regular";
+}
+.Index section .sect p{
+  width: 100%;
+  font-size: 1.2em;
+
+}
+.Index section .sect img{
+  width: 40%;
+  padding: 8%;
+}
+/*Fin Index */ 
+
+/*Inicio Deportes */ 
+.card{
+  margin: 4%;
+  margin-left: 20%;
+  border: none;
+  box-shadow: -1px 13px 46px -1px rgba(0,0,0,0.41);
+  border-radius: 25px;
+}
+.card .text-bg-dark{
+  border-radius: 250px;
+
+}
+
+.Titulos h1{
+  font-size: 3em;
+  margin: 4%;
+  font-weight: bold;
+}
+.card .card-img-overlay h3{
+  font-size: 3.3em;
+  font-weight: bold;
+  margin: 2%;
+  margin-top: 4%;
+  margin-bottom: 0px;
+}
+.card .card-img-overlay button{
+ margin-left: 2%;
+}
+.btn a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.costado{
+  border-left: 7px solid #ddd;
+  border-radius: 5px;
+  margin-left: 6%;
+}
+/*Fin Deportes */ 
+
+/*Inicio Paises */
+.card-img-overlay-dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.Paises h3{
+  margin-top: 4%;
+
+}
+/*Fin Paises */ 
+/*Inicio Historia */ 
+.heroHistoria{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/historia.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+.heroHistoria h1{
+font-weight: bold;
+  width: 40%;
+  font-size: 4em;
+  font-family: "Anton Regular" ;
+  color: white;
+  display: flex;
+  justify-content: center; 
+}
+.historia{
+  padding-bottom: 5%;
+}
+.historia img{
+  width: 100%;
+}
+/*Fin Historia */ 
+/*Inicio AgergarDeportista */ 
+form{
+  padding: 6%;
+}
+form h1{
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+label{
+  background-color: #272727;
+  color: white;
+  border-radius:5px;
+  width: 10%;
+  padding: 0.5%;
+  padding-left: 1%;
+}
+/*Fin AgergarDeportista */ 
+/*Inicio DetalleDeporte/Pais */ 
+.card-body h4{
+  font-weight: bold;
+}
+.Deportistas{
+  display: flex;
+}
+.Deportistas .card img{
+  height: 80%;
+}
+.carousel .carousel-inner .carousel-item{
+  height: 350px;
+}
+.carousel-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.heroPais{
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/tiraPais.png");
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.heroPais h1{
+  font-size: 5em;
+  margin-right: 1%;
+  font-weight: bold;
+}
+.heroPais img{
+  width: 8%;
+  margin: 1.5%;
+  border-radius: 15px;
+}
+.heroDeporte{
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/tiraDeporte.png");
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-size: cover;
+}
+.heroDeporte h1{
+  font-size: 5em;
+  margin-right: 1%;
+  font-weight: bold;
+}
+.heroDeporte img{
+  width: 12%;
+  margin: 1.5%;
+  border-radius: 15px;
+}
+.carousel-caption h1{
+  font-size: 5em;
+  font-weight: bold;
+}
+.carousel-caption h2{
+  font-size: 5em;
+  color: #00000000;
+}
+.franja{
+  width: 100%;
+}
+.franja img{
+  width: 100%;
+  height: 200px;
+}
+/*Fin DetalleDeporte/Pais */ 
+/*Inicio Deportistas */
+.Deportistas{
+  display: flex;
+} 
+.Deportistas .datos{
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  color: white;
+  width: 100%;
+  padding: 5%;
+  font-size: large;
+}
+.Deportistas .datos h1{
+  font-size: 3em;
+}
+.Deportistas .datos section{
+  padding-top: 3%;
+}
+.Deportistas .datos section button a{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.3em;
+
+}
+.Deportistas .datos section button{
+  border-radius: 5px;
+  padding: 1.5%;
+  border: 0px;
+}
+.Deportistas .datos section button:hover{
+  background-color: #bdbdbd;
+}
+/*Fin Deportistas */ 
+
+
+

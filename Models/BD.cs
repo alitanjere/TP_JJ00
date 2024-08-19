@@ -10,39 +10,39 @@ public class BD{
     public static void AgregarDeportista(Deportista dep){
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "INSERT INTO Deportistas(Apellido, Nombre, FechaNacimiento, Foto, IdPais, IdDeporte) VALUES (@pApellido, @pNombre, @pFechaNacimiento, @pFoto, @pIdPais, @pIdDeporte)";
-            db.Execute(sql, new{pApellido = dep.Apellido, pNombre = dep.Nombre, pFechaNacimiento = dep.FechaNacimiento, pFoto = dep.Foto, pIdPais = dep.idPais, pIdDeporte = dep.idDeporte} );
+            db.Execute(sql, new{pApellido = dep.Apellido, pNombre = dep.Nombre, pFechaNacimiento = dep.FechaNacimiento, pFoto = dep.Foto, pIdPais = dep.IdPais, pIdDeporte = dep.IdDeporte} );
         }
 
     }
-    public static void EliminarDeportista(int idDeportista){
+    public static void EliminarDeportista(int IdDeportista){
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "DELETE FROM Deportistas WHERE IdDeportista = @DeportistaABorrar";
-            db.Execute(sql, new{DeportistraABorrar = idDeportista} );
+            db.Execute(sql, new{DeportistraABorrar = IdDeportista} );
         }
     }
-    public static Deportista VerInfoDeportista(int idDeportista){
+    public static Deportista VerInfoDeportista(int IdDeportista){
         Deportista MiDep = null;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Deportistas WHERE IdDeportista = @DeportistaAVer";
-            MiDep = db.QueryFirstOrDefault<Deportista>(sql, new { DeportistaAVer = idDeportista });
+            MiDep = db.QueryFirstOrDefault<Deportista>(sql, new { DeportistaAVer = IdDeportista });
         }
         return MiDep;
     }
 
-    public static Pais VerInfoPais(int idPais){
+    public static Pais VerInfoPais(int IdPais){
         Pais MiPais = null;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Paises WHERE IdPais = @PaisAVer";
-            MiPais = db.QueryFirstOrDefault<Pais>(sql, new { PaisAVer = idPais });
+            MiPais = db.QueryFirstOrDefault<Pais>(sql, new { PaisAVer = IdPais });
         }
         return MiPais;
     }
 
-    public static Deporte VerInfoDeporte(int idDeporte){
+    public static Deporte VerInfoDeporte(int IdDeporte){
         Deporte MiDeporte = null;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Deportes WHERE IdDeporte = @DeporteAVer";
-            MiDeporte = db.QueryFirstOrDefault<Deporte>(sql, new { DeporteAVer = idDeporte });
+            MiDeporte = db.QueryFirstOrDefault<Deporte>(sql, new { DeporteAVer = IdDeporte });
         }
         return MiDeporte;
     }

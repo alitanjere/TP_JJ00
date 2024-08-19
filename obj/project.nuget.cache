@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "riZ6TvmRDTzVldI+OYKrx/la3o+XzC6sb1fLdNFSdv25+H40JiKg1giX/uiad6fxgEccDZi1Uqem7YhZfzHRmA==",
+  "dgSpecHash": "SpGkpDfEWKQ0oqlHVGsLxTEplDwDwVm8VuCy2fXjHQVJPtK17OK00BUwaqDG6EIFrQ0lGRuvKCE6VnbzoQ2C7Q==",
   "success": true,
-  "projectFilePath": "Z:\\PROG 4TO AÑO\\TP_JJOO\\TP_JJOO.csproj",
+  "projectFilePath": "C:\\Users\\94643227\\Desktop\\TP_JJ00\\TP_JJOO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\94643227\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\94643227\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

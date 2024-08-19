@@ -1,4 +1,11 @@
-<img src ="~/Images/@ViewBag.FotoDeportista">
-<h1>@ViewBag.NombreDeportista, @ViewBag.ApellidoDeportista</h1>
-<p>@ViewBag.FechaDeportista</p>
+<div class="Deportistas">
+<img src ="@ViewBag.FotoDeportista">
+<div class="datos">
 
+<h1>@ViewBag.NombreDeportista @ViewBag.ApellidoDeportista</h1>
+<p>Nacimiento: @ViewBag.FechaDeportista.Year/@ViewBag.FechaDeportista.Month/@ViewBag.FechaDeportista.Day</p>
+<section>
+<button><a href='@Url.Action("VerDetalleDeporte", new{idDeporte = @ViewBag.IDDeporteDeportista})'>Ver Deporte</a></button>
+<button><a href='@Url.Action("VerDetallePais", new{idPais = @ViewBag.IDPaisDeportista})'>Ver Pais</a></button>
+</section></div>
+</div>
