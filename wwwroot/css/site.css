@@ -471,41 +471,45 @@ label{
   height: 200px;
 }
 /*Fin DetalleDeporte/Pais */ 
-/*Inicio Deportistas */
-.Deportistas{
-  display: flex;
-} 
-.Deportistas .datos{
-  display: flex;
-  flex-direction: column;
-  background-color: #272727;
-  color: white;
-  width: 100%;
-  padding: 5%;
-  font-size: large;
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
 }
-.Deportistas .datos h1{
-  font-size: 3em;
-}
-.Deportistas .datos section{
-  padding-top: 3%;
-}
-.Deportistas .datos section button a{
-  color: #000;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1.3em;
 
+/* Contenedor principal */
+.container {
+  max-width: 900px;
 }
-.Deportistas .datos section button{
-  border-radius: 5px;
-  padding: 1.5%;
-  border: 0px;
+
+/* Imágenes */
+.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
 }
-.Deportistas .datos section button:hover{
-  background-color: #bdbdbd;
+
+/* Botones */
+.btn {
+  margin-top: 1rem;
 }
-/*Fin Deportistas */ 
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+.btn-primary, .btn-secondary {
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+
+
 
 
 
