@@ -1,9 +1,8 @@
 <div class="Titulos">
 <h1>Conoce nuestros deportes</h1></div>
-<div class="row">
+
 @foreach(Deporte depo in ViewBag.ListaDeportes){
-  <div class="col-sm-3">
-    <div class="card text-bg-dark">
+    <div class="card text-bg-dark" style=" width:700px">
       <div class="card-img-overlay-dark">
       <img src="~/Images/@depo.Foto" class="card-img" alt="..." style="height: 200px;"></div>
       <div class="card-img-overlay">
@@ -13,6 +12,5 @@
         </div>
       </div>
     </div>
-  </div>
 }
-</div>
+

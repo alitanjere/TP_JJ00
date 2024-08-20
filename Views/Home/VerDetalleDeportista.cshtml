@@ -15,7 +15,7 @@
         <img src="@ViewBag.FotoDeportista" class="img-fluid rounded" alt="Foto de @ViewBag.NombreDeportista">
       </div>
       <div class="col-md-8">
-        <h1>@ViewBag.NombreDeportista @ViewBag.ApellidoDeportista</h1>
+        <h1><b>@ViewBag.NombreDeportista @ViewBag.ApellidoDeportista</b></h1>
         <p>Nacimiento: @ViewBag.FechaDeportista.Year/@ViewBag.FechaDeportista.Month/@ViewBag.FechaDeportista.Day</p>
         <a href='@Url.Action("VerDetalleDeporte", new{idDeporte = @ViewBag.IDDeporteDeportista})' class="btn btn-primary">Ver Deporte</a>
         <a href='@Url.Action("VerDetallePais", new{idPais = @ViewBag.IDPaisDeportista})' class="btn btn-secondary">Ver País</a>

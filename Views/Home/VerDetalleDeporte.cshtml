@@ -9,19 +9,16 @@
 <div class="Titulos">
   <h1>Deportistas de @ViewBag.NombreDeporte</h1>
 </div>
-<div class="container">
-  <div class="row">
+  <div class="Deportistas">
     @foreach(Deportista miDepor in ViewBag.DeportistasPorDeporte) {
-      <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card" style="width: 18rem;">
           <img src="@miDepor.Foto" class="card-img-top" alt="Foto de @miDepor.Nombre">
           <div class="card-body">
             <h4 class="card-title">@miDepor.Nombre @miDepor.Apellido</h4>
             <a href='@Url.Action("VerDetalleDeportista", new{IdDeportista = @miDepor.IdDeportista})' class="btn btn-dark">Ver más</a>
           </div>
         </div>
-      </div>
     }
   </div>
-</div>
+
 <!--Fin Deportistas-->
